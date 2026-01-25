@@ -2,38 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which property of the tube material is most important during the ripple process?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Electrical conductivity",
+        "b": "Optical transparency",
+        "c": "Ability to withstand large deformation",
+        "d": "Corrosion resistance"
       },
       "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+
+      {
+      "question": "Formed bellows differ from welded bellows mainly in:",
+      "answers": {
+        "a": "Material composition",
+        "b": "Manufacturing process",
+        "c": "Shape accuracy",
+        "d": "Surface color"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+
+      {
+      "question": "Which material is commonly used in ripple process simulations due to its ductility?",
+      "answers": {
+        "a": "Cast iron",
+        "b": "Mild steel",
+        "c": "Ceramic",
+        "d": "Glass"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "Metal bellows are widely used in medical applications such as:",
+      "answers": {
+        "a": "Bone plates",
+        "b": "Heart valves",
+        "c": "Dental fillings",
+        "d": "Implantable drug pumps"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    
+    {
+      "question": "The main purpose of forming ripples in bellows is to:",
+      "answers": {
+        "a": "Allow flexible expansion and contraction",
+        "b": "Improve surface finish",
+        "c": "Increase hardness",
+        "d": "Reduce weight only"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
