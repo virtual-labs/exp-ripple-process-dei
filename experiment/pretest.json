@@ -2,35 +2,61 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary function of metal bellows in industrial applications?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Heat transfer",
+        "b": "Electrical insulation",
+        "c": "Absorbing axial movement and pressure variations",
+        "d": "Chemical storage"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "Bellows are also commonly known as:",
+      "answers": {
+        "a": "Pistons",
+        "b": "Sylphons",
+        "c": "Sylphons",
+        "d": "Nozzles"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "Which forming process is mainly responsible for producing ripples in metal bellows?",
+      "answers": {
+        "a": "Casting",
+        "b": "Machining",
+        "c": "Welding",
+        "d": "Bulging and axial compression"
+      },
+   
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "In the ripple process, the tube is initially deformed using:",
+      "answers": {
+        "a": "Hydraulic or mechanical press",
+        "b": "Magnetic force",
+        "c": "Centrifugal force",
+        "d": "Thermal expansion"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
+    
     {
-      "question": "This is a Sample Question 2?",
+      "question": "During the second step of ripple formation, the tube is subjected to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Radial stretching",
+        "b": "Torsional loading",
+        "c": "Axial compression",
+        "d": "Shear deformation"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
