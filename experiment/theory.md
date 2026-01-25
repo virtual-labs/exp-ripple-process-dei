@@ -1,5 +1,3 @@
-## Ripple Process
-
 ### Elastic Nature of Bellows Tubes
 
 Bellows tubes are elastic vessels that can be compressed when pressure is applied to the outside of the vessel or extended under vacuum. When the pressure or vacuum is released, the bellows return to their original shape. These are also known as convoluted bellows or sylphons.
