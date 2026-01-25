@@ -1,13 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ripple Process Simulations</title>
 </head>
 <body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<h2>Ripple Process Simulations<</h2>
+<hr>
+
+<!-- ===== BUTTON SECTION ===== -->
+<div>
+    <p>Simulation 1</p>
+    <button onclick="showSimulation('sim1')">▶ Play Ripple Process</button>
+
+    <p>Simulation 2</p>
+    <button onclick="showSimulation('sim2')">▶ Play Ripple Process with Strain</button>
+</div>
+
+<hr>
+
+<!-- ===== VIDEO + DESCRIPTION SECTION ===== -->
+
+<div id="sim1" class="video-section" style="display:none;">
+    <h3>Ripple Process</h3>
+    <video width="750" controls>
+        <source src="TubeRipple simulation 1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>
+        <strong>Description:</strong>
+        In the given simulation video one can see ripple formation or bellow manufacturing process. In this process the tube is compressed axially and bulge is produced at several equidistant locations. Finally the bulged tube is compressed axially to collapse the bulged regions and finally bellows are formed. In the left hand side of the video one can see the full in section of tube and die assembly. Upper and lower die are used to press the tube. Upper and lower supports are used to hold the tube ends. The central support is used to create a bulge in the tube under axial compression. The material of the tube is mild steel. The hydraulic presses are used to compress the tube. Right hand top side of the video shows the outer surface of the assembly. While the lower right hand side of the video shows the various stages of the tube from initial stage to intermediate stage and finally the bellow tube.
+    </p>
+</div>
+
+<div id="sim2" class="video-section" style="display:none;">
+    <h3>Ripple Process with Strain </h3>
+    <video width="750" controls>
+        <source src="StrainRipple simulation 2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>
+        <strong>Description:</strong>
+        In the given simulation video of ripple formation process one can see the strain generated in the tube and variation of force with time. In the left hand side of the video one can see the strain generated inside the tube during the bulging and collapsing process. In the left hand side one can see the vertical scale with different colours. Each colour shows different level of strain generated inside the tube starting from blue which correspond to zero strain level. More strain in the tube indicates more deformation and more deformation gives more strength to the tube. The maximum strain generated inside the tube is about 1.4. In the right hand top side of the video shows the strain generated on the outer surface of the tube. Maximum strain generated on the outer surface of the tube is about 1.4 but overall average strain generated on the outer surface of the tube is about 0.4. The right hand bottom side of the video shows the graph showing variation of force acting on the tube by upper die with time. The maximum force generated on the tube is 0.8896 tonnes.
+    </p>
+</div>
+
+<!-- ===== SCRIPT ===== -->
+<script>
+function showSimulation(id) {
+    const sections = document.getElementsByClassName('video-section');
+
+    for (let i = 0; i < sections.length; i++) {
+        sections[i].style.display = 'none';
+        const video = sections[i].querySelector('video');
+        if (video) {
+            video.pause();
+            video.currentTime = 0;
+        }
+    }
+
+    const active = document.getElementById(id);
+    active.style.display = 'block';
+
+    const activeVideo = active.querySelector('video');
+    if (activeVideo) {
+        activeVideo.play();
+    }
+
+    active.scrollIntoView({ behavior: 'smooth' });
+}
+</script>
 </body>
 </html>
+
