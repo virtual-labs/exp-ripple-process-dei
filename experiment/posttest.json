@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which property of the tube material is most important during the ripple process?",
+      "question": "1. Which property of the tube material is most important during the ripple process?",
       "answers": {
         "a": "Electrical conductivity",
         "b": "Optical transparency",
@@ -10,11 +10,11 @@
         "d": "Corrosion resistance"
       },
       "correctAnswer": "c",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
 
       {
-      "question": "Formed bellows differ from welded bellows mainly in:",
+      "question": "2. Formed bellows differ from welded bellows mainly in:",
       "answers": {
         "a": "Material composition",
         "b": "Manufacturing process",
@@ -26,7 +26,7 @@
     },
 
       {
-      "question": "Which material is commonly used in ripple process simulations due to its ductility?",
+      "question": "3. Which material is commonly used in ripple process simulations due to its ductility?",
       "answers": {
         "a": "Cast iron",
         "b": "Mild steel",
@@ -38,7 +38,7 @@
     },
 
       {
-      "question": "Metal bellows are widely used in medical applications such as:",
+      "question": "4. Metal bellows are widely used in medical applications such as:",
       "answers": {
         "a": "Bone plates",
         "b": "Heart valves",
@@ -46,11 +46,11 @@
         "d": "Implantable drug pumps"
       },
       "correctAnswer": "d",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
     
     {
-      "question": "The main purpose of forming ripples in bellows is to:",
+      "question": "5. The main purpose of forming ripples in bellows is to:",
       "answers": {
         "a": "Allow flexible expansion and contraction",
         "b": "Improve surface finish",
@@ -58,7 +58,7 @@
         "d": "Reduce weight only"
       },
       "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     }
   ]
 }
