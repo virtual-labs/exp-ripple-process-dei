@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the primary function of metal bellows in industrial applications?",
+      "question": "1. What is the primary function of metal bellows in industrial applications?",
       "answers": {
         "a": "Heat transfer",
         "b": "Electrical insulation",
@@ -14,7 +14,7 @@
     },
 
       {
-      "question": "Bellows are also commonly known as:",
+      "question": "2. Bellows are also commonly known as:",
       "answers": {
         "a": "Pistons",
         "b": "Sylphons",
@@ -26,7 +26,7 @@
     },
 
       {
-      "question": "Which forming process is mainly responsible for producing ripples in metal bellows?",
+      "question": "3. Which forming process is mainly responsible for producing ripples in metal bellows?",
       "answers": {
         "a": "Casting",
         "b": "Machining",
@@ -39,7 +39,7 @@
     },
 
       {
-      "question": "In the ripple process, the tube is initially deformed using:",
+      "question": "4. In the ripple process, the tube is initially deformed using:",
       "answers": {
         "a": "Hydraulic or mechanical press",
         "b": "Magnetic force",
@@ -51,7 +51,7 @@
     },
     
     {
-      "question": "During the second step of ripple formation, the tube is subjected to:",
+      "question": "5. During the second step of ripple formation, the tube is subjected to:",
       "answers": {
         "a": "Radial stretching",
         "b": "Torsional loading",
