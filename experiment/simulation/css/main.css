@@ -75,7 +75,9 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.75);
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;   /* changed from center */
+    padding-top: 20px;         /* space from top */
+    overflow-y: auto;          /* allow scrolling */
     z-index: 1000;
 }
 
@@ -98,8 +100,10 @@ body {
 }
 
 .video-card video {
-    margin-bottom: 15px;
-    border-radius: 6px;
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 15px;
+    border-radius: 6px; */
 }
 
 /* ===== DESCRIPTION BOX ===== */
