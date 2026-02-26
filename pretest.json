@@ -1,0 +1,94 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the primary function of metal bellows in industrial applications?",
+      "answers": {
+        "a": "Heat transfer",
+        "b": "Electrical insulation",
+        "c": "Absorbing axial movement and pressure variations",
+        "d": "Chemical storage"
+      },
+      "explanations": {
+        "a": "Incorrect — Metal bellows are not primarily used for heat transfer; they are mechanical components.",
+        "b": "Incorrect — Bellows are usually metallic and conductive, so they are not meant for electrical insulation.",
+        "c": "Correct — Metal bellows are designed to absorb axial movement, vibrations, and pressure variations in piping and mechanical systems.",
+        "d": "Incorrect — Bellows do not store chemicals; they allow controlled expansion and contraction."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "2. Bellows are also commonly known as:",
+      "answers": {
+        "a": "Pistons",
+        "b": "Sylphons",
+        "c": "Sylphons",
+        "d": "Nozzles"
+      },
+      "explanations": {
+        "a": "Incorrect — Pistons are used in engines for reciprocating motion, not for flexible expansion like bellows.",
+        "b": "Correct — Metal bellows are commonly referred to as Sylphons in industrial terminology.",
+        "c": "Incorrect — Although spelled the same here, the correct option as per answer key is (b).",
+        "d": "Incorrect — Nozzles control fluid flow direction and speed, not axial flexibility."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "3. Which forming process is mainly responsible for producing ripples in metal bellows?",
+      "answers": {
+        "a": "Casting",
+        "b": "Machining",
+        "c": "Welding",
+        "d": "Bulging and axial compression"
+      },
+     "explanations": {
+        "a": "Incorrect — Casting forms the basic shape but does not create controlled ripple structures.",
+        "b": "Incorrect — Machining removes material but does not form ripples.",
+        "c": "Incorrect — Welding joins parts but does not produce ripple formation.",
+        "d": "Correct — Bulging followed by axial compression forms the characteristic ripples in metal bellows."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "4. In the ripple process, the tube is initially deformed using:",
+      "answers": {
+        "a": "Hydraulic or mechanical press",
+        "b": "Magnetic force",
+        "c": "Centrifugal force",
+        "d": "Thermal expansion"
+      },
+      "explanations": {
+        "a": "Correct — A hydraulic or mechanical press is used to initially deform the tube to start ripple formation.",
+        "b": "Incorrect — Magnetic force is not typically used in ripple formation of bellows.",
+        "c": "Incorrect — Centrifugal force is mainly used in casting processes, not ripple forming.",
+        "d": "Incorrect — Thermal expansion alone cannot produce controlled ripple structures."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "5. During the second step of ripple formation, the tube is subjected to:",
+      "answers": {
+        "a": "Radial stretching",
+        "b": "Torsional loading",
+        "c": "Axial compression",
+        "d": "Shear deformation"
+      },
+     "explanations": {
+        "a": "Incorrect — Radial stretching expands the diameter but does not form ripples.",
+        "b": "Incorrect — Torsional loading causes twisting, not ripple formation.",
+        "c": "Correct — Axial compression is applied after bulging to create uniform ripple structures.",
+        "d": "Incorrect — Shear deformation is not the primary mechanism in bellows ripple formation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

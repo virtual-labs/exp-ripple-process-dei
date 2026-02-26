@@ -1,0 +1,94 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which property of the tube material is most important during the ripple process?",
+      "answers": {
+        "a": "Electrical conductivity",
+        "b": "Optical transparency",
+        "c": "Ability to withstand large deformation",
+        "d": "Corrosion resistance"
+      },
+      "explanations": {
+        "a": "Incorrect — Electrical conductivity is not relevant to the mechanical forming of ripples.",
+        "b": "Incorrect — Optical transparency has no role in metal forming processes.",
+        "c": "Correct — The tube must withstand large plastic deformation during bulging and axial compression without cracking.",
+        "d": "Incorrect — Corrosion resistance is important for service life, but not the primary requirement during ripple formation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "2. Formed bellows differ from welded bellows mainly in:",
+      "answers": {
+        "a": "Material composition",
+        "b": "Manufacturing process",
+        "c": "Shape accuracy",
+        "d": "Surface color"
+      },
+      "explanations": {
+        "a": "Incorrect — Both formed and welded bellows can use similar materials.",
+        "b": "Correct — The key difference lies in the manufacturing process: formed bellows are shaped from a single tube, while welded bellows are assembled from diaphragms.",
+        "c": "Incorrect — Shape accuracy may vary, but it is not the fundamental difference.",
+        "d": "Incorrect — Surface color is not a defining factor between the two types."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "3. Which material is commonly used in ripple process simulations due to its ductility?",
+      "answers": {
+        "a": "Cast iron",
+        "b": "Mild steel",
+        "c": "Ceramic",
+        "d": "Glass"
+      },
+      "explanations": {
+        "a": "Incorrect — Cast iron is brittle and unsuitable for large plastic deformation.",
+        "b": "Correct — Mild steel has good ductility and can undergo significant plastic deformation, making it suitable for ripple formation.",
+        "c": "Incorrect — Ceramics are brittle and cannot withstand plastic deformation.",
+        "d": "Incorrect — Glass is brittle and fractures under deformation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+      {
+      "question": "4. Metal bellows are widely used in medical applications such as:",
+      "answers": {
+        "a": "Bone plates",
+        "b": "Heart valves",
+        "c": "Dental fillings",
+        "d": "Implantable drug pumps"
+      },
+    "explanations": {
+        "a": "Incorrect — Bone plates are rigid structures and do not require flexible bellows.",
+        "b": "Incorrect — Heart valves function differently and are not typical bellows applications.",
+        "c": "Incorrect — Dental fillings do not require flexible expansion components.",
+        "d": "Correct — Implantable drug pumps use metal bellows to allow controlled expansion and contraction for fluid delivery."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "5. The main purpose of forming ripples in bellows is to:",
+      "answers": {
+        "a": "Allow flexible expansion and contraction",
+        "b": "Improve surface finish",
+        "c": "Increase hardness",
+        "d": "Reduce weight only"
+      },
+      "explanations": {
+        "a": "Correct — Ripples provide flexibility, allowing axial expansion and contraction under pressure and movement.",
+        "b": "Incorrect — Surface finish is not the primary goal of ripple formation.",
+        "c": "Incorrect — Hardness is not increased by forming ripples.",
+        "d": "Incorrect — Weight reduction is not the main purpose; flexibility is."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
